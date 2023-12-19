@@ -1,0 +1,259 @@
+
+#book{
+    color: rgb(233, 236, 200);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+ul{
+    list-style-type: none;  /*list type type specifies the appearance of the list item marker */
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;   
+}
+#nav:link,nav:visited{
+    display: block;     /*It specifies the region in particular line with the empty of below and above line*/
+    font-weight: bold;
+    color: aliceblue;
+    background-color: black;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li{
+    float: left;
+}
+#nav:hover,nav:active{
+    background-color: red;
+}
+.one{
+    margin-left: 0px;
+    background-color: black;
+    
+}
+.mov{
+    margin-left: 50px;
+}
+.about{
+    margin-left: 50px;
+}
+.box{
+    margin-left: 30px;
+    max-height: 200px;
+    size: 50px;
+    color: red;
+    background-color:black ;
+}
+.search{
+    width: 30px;
+    height: 40px;
+    color: aqua;
+    background-color: black;
+}
+.login{
+    margin-left: 50px;
+}
+.contact{
+    margin-left: 50PX;
+}
+.slide{
+    padding: 0;
+    margin-top: 58px;
+    box-sizing: border-box;   /*box sizing property specifies how the width and height of the elemwent is caluclated*/
+    background-color: black;
+    width: 1500px;
+    height: 700px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+.images{
+    width: 100%;
+    display: flex;
+    animation: slide 7s infinite;
+    padding-right: 150px;
+}
+@keyframes slide{
+    0%{
+    transform: translateX(0);
+    }
+    25%{
+    transform: translateX(0);
+    }
+    30%{
+    transform: translateX(-100%);
+    }
+    50%{
+    transform: translateX(-100%);
+    }
+    55%{
+    transform: translateX(-200%);
+    }
+    75%{
+    transform: translateX(-200%);
+    }
+    80%{
+    transform: translateX(-300%);
+    }
+    100%{
+    transform: translateX(-300%);
+    }
+    }
+#available{
+    padding-top: 100px;
+    background-color: black;
+    margin: 0;
+    color: gold;
+    text-align: center;
+    text-decoration: underline;
+}
+.form{
+    background-color: black;
+    padding-top: 20px;
+}
+.theatre{
+    margin-top: 750px;
+    margin-left: 60px;
+    font-size: 25px;
+    overflow: hidden;
+}
+#theatre{
+    margin-left: 80px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;              /*cursor is the pointer and indicates the link*/
+    background-color: grey;
+    width: 250px;
+    height: 30px;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+}
+#theatre:hover{
+    background: none;
+    background-color: lightgray;
+}
+.cinemas{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#cinemas{
+    margin-left: 78px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: grey;
+    width: 250px;
+    height: 30px;
+    list-style: none;
+    position: relative;
+    overflow: hidden; 
+}
+#cinemas:hover{
+    background: none;
+    background-color: lightgray;
+}
+.timings{
+    margin-left: 53px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#timings{
+    margin-left: 78px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer; 
+    background-color: grey;
+    width: 250px;
+    height: 30px;
+    list-style: none;
+    position: relative;
+    overflow: hidden; 
+}
+#timings:hover{
+    background: none;
+    background-color: lightgray;
+}
+.prices{
+    margin-left: 72px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#prices{
+    margin-left: 80px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer; 
+    background-color: grey;
+    width: 250px;
+    height: 30px;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+}
+#prices:hover{
+    background: none;
+    background-color: lightgray;
+}
+#img1{
+    width: 350px;
+    height: 200px;
+    padding: 25px;
+}
+#img2{
+    width: 350px;
+    height: 200px;
+    padding: 100px;
+}
+#img5{
+    width: 350px;
+    height: 200px;
+    margin-left: 160px;
+}
+.table{
+    background-color: black;
+}
+.table1{
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+#img3{
+    width: 350px;
+    height: 200px;
+    margin-left: 100px;
+}
+#img4{
+    width: 350px;
+    height: 200px;
+    margin-left: 150px; 
+}
+#last{
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 500;
+    color: black;
+    background-color: grey;
+}
+
